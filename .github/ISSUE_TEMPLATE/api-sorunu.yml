@@ -1,0 +1,28 @@
+name: 🐞 API sorunu
+description: Bir uç noktada beklenmeyen davranış bildir
+labels: ["api"]
+body:
+  - type: input
+    id: uc
+    attributes:
+      label: Uç nokta
+      placeholder: "ör. POST /api/v1/chat"
+    validations:
+      required: true
+  - type: textarea
+    id: istek
+    attributes:
+      label: İstek gövdesi
+      description: API anahtarını ASLA paylaşma.
+      render: json
+  - type: textarea
+    id: yanit
+    attributes:
+      label: Aldığın yanıt (durum kodu + gövde)
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: beklenen
+    attributes:
+      label: Ne bekliyordun?

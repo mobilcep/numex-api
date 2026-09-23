@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🔑 API anahtarı al
+    url: https://www.numexai.com.tr/api
+    about: 100.000 token hediye ile başla.
+  - name: 💳 Hesap / ödeme / fatura
+    url: mailto:destek@numexai.com.tr
+    about: Hesaba özel konular için e-posta gönder.
