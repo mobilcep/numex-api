@@ -55,7 +55,7 @@ Scale ₺3,499 (50M). Rate limits scale automatically with spend: Free 10 req/mi
 
 ## SDK & examples
 
-- Node.js/TypeScript: [numex-sdk](https://github.com/mobilcep/numex-sdk)
+- Node.js/TypeScript: [numex-sdk](https://github.com/numexai/numex-sdk)
 - Python, cURL and an embeddings-based semantic search demo: [`ornekler/`](ornekler/)
 
 Support: **destek@numexai.com.tr**

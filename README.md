@@ -10,7 +10,7 @@
 
 [![Base URL](https://img.shields.io/badge/base-numexai.com.tr%2Fapi%2Fv1-00C9A7?style=for-the-badge)](https://www.numexai.com.tr/api)
 [![Hediye](https://img.shields.io/badge/ilk_kayıtta-100.000_token-0A1628?style=for-the-badge)](https://www.numexai.com.tr/api)
-[![SDK](https://img.shields.io/badge/SDK-numex--sdk-0A1628?style=for-the-badge)](https://github.com/mobilcep/numex-sdk)
+[![SDK](https://img.shields.io/badge/SDK-numex--sdk-0A1628?style=for-the-badge)](https://github.com/numexai/numex-sdk)
 
 🇹🇷 Türkçe · [🇬🇧 English](README.en.md)
 
@@ -121,7 +121,7 @@ const r = await numex.chat.completions.create({
 });
 console.log(r.answer);
 ```
-→ [github.com/mobilcep/numex-sdk](https://github.com/mobilcep/numex-sdk)
+→ [github.com/numexai/numex-sdk](https://github.com/numexai/numex-sdk)
 </details>
 
 Daha fazla hazır örnek: [`ornekler/`](ornekler/)
@@ -225,10 +225,10 @@ Toplam harcaman arttıkça **tier**'in otomatik yükselir:
 
 | | |
 |---|---|
-| 🟩 **Node.js / TypeScript** | [numex-sdk](https://github.com/mobilcep/numex-sdk) — `npm i numexcodex-sdk` |
+| 🟩 **Node.js / TypeScript** | [numex-sdk](https://github.com/numexai/numex-sdk) — `npm i numexcodex-sdk` |
 | 🐍 **Python** | Resmî SDK henüz yok; [`ornekler/python_sohbet.py`](ornekler/python_sohbet.py) |
 | 🧪 **cURL** | [`ornekler/curl.sh`](ornekler/curl.sh) |
-| ⌨️ **CLI** | [Numex Codex](https://github.com/mobilcep/numex-codex) — `npm i -g @numexai/cli` |
+| ⌨️ **CLI** | [Numex Codex](https://github.com/numexai/numex-codex) — `npm i -g @numexai/cli` |
 
 ## 📬 Destek
 
